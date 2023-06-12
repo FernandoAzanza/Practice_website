@@ -1,0 +1,275 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 25px;
+  
+}
+
+.bodyy{
+  background-color: #dbc1ac;
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+
+.footer{
+  text-align: center;
+  z-index: -1;
+}
+
+/* LAB 7 CODE
+/* .error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+} */
+
+/* Petition Container */
+ .petition-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+}
+ 
+.petition-para{
+  width: 55%
+  padding-right: 10px;
+}
+
+.signatures{
+  width: 45%;
+  padding-right: 10px;
+}
+
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color: #2c4047;
+  color: white;
+}
+/* Add style to button */
+#theme-button {
+  background-color: #03c78d;
+  padding: 5px;
+
+}
+/* General style rule set for all items in ul */
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+    font-family: Arial;
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+}
+
+
+
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {
+
+}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {
+}
+
+
+
+
+/* Style set for all flex-items */
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+
+    /* Add a background color or image */
+    background-color: white;
+    background-image: url('');
+
+    /* Customize the font, size, and color for text*/
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+
+    /* Adjust the padding and margins */
+    padding-top: 300;
+    padding-left: 300;
+    padding-right: 300;
+    padding-bottom: 300;
+
+    margin-top: 300;
+    margin-left: 300;
+    margin-right: 300;
+    margin-bottom: 300;
+
+}
+
+.header-container{
+  padding-top:10;
+  margin-bottom:10;
+  margin-top: 10;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-item:nth-of-type(1) {
+/*   //define stuff */
+  
+}
+
+.header-item:nth-of-type(2)  {
+  
+}
+ 
+
+
+/* .header-button{
+  background-color: green;
+} */
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+a { 
+
+}
+
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+
+}
+
+ol li {
+
+}
+
+
+ul {
+
+}
+
+ul li {
+
+}
+
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+button {
+  background-color:  #03c78d;
+  border: none;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 4px #999;
+
+}
+
+button:hover {background-color:#03c75d }
+
+
+
+img{
+  border-radius: 10px;
+}
+
+a:link
+a:active
+a:hover
+a:active
+
+
+/* Select and style elements by class name or ID */
+
+
+/* Example: This styles elements with class="header"*/
+
+
+
+/* Example: This styles an element with an id="header-img" */
+#header-img {
+
+}
